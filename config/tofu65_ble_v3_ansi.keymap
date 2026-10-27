@@ -27,6 +27,17 @@
 #define L_NUMPAD 2
 #define L_UNUSED 3
 
+&gresc {
+    keep-mods = <(MOD_LSFT | MOD_RSFT)>;
+};
+
+/ {
+    keymap {
+        compatible = "zmk,keymap";
+        // Your existing layers remain here
+    };
+};
+
 / {
     keymap {
         compatible = "zmk,keymap";
